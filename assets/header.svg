@@ -1,0 +1,65 @@
+<svg width="960" height="260" viewBox="0 0 960 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Quang Huy — Applied AI, data systems and visual algorithms</title>
+  <desc id="desc">Animated dark blue portfolio header with data nodes and moving signal paths.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="960" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset="0.55" stop-color="#0B1E33"/>
+      <stop offset="1" stop-color="#10233D"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="190" y1="64" x2="748" y2="207" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.52" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#22D3EE" stop-opacity=".38"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#8BD5FF" stroke-opacity=".07"/>
+    </pattern>
+    <filter id="soft" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+    <clipPath id="clip"><rect width="960" height="260" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="960" height="260" fill="url(#bg)"/>
+    <rect width="960" height="260" fill="url(#grid)"/>
+    <circle cx="830" cy="44" r="170" fill="url(#glow)" opacity=".4">
+      <animate attributeName="cx" values="830;760;830" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="118" cy="250" r="140" fill="url(#glow)" opacity=".22">
+      <animate attributeName="cy" values="250;210;250" dur="11s" repeatCount="indefinite"/>
+    </circle>
+
+    <g opacity=".6" stroke="#5DD9EF" stroke-width="1.4">
+      <path d="M40 56C120 20 143 95 218 58S333 38 393 73" stroke-dasharray="5 9">
+        <animate attributeName="stroke-dashoffset" from="0" to="-56" dur="4s" repeatCount="indefinite"/>
+      </path>
+      <path d="M636 199C711 154 759 222 824 173S909 162 944 114" stroke-dasharray="4 10">
+        <animate attributeName="stroke-dashoffset" from="0" to="-56" dur="4.8s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <g fill="#22D3EE">
+      <circle cx="62" cy="49" r="4"><animate attributeName="opacity" values=".25;1;.25" dur="2.1s" repeatCount="indefinite"/></circle>
+      <circle cx="155" cy="65" r="3"><animate attributeName="opacity" values="1;.25;1" dur="2.8s" repeatCount="indefinite"/></circle>
+      <circle cx="878" cy="153" r="4"><animate attributeName="opacity" values=".2;1;.2" dur="2.4s" repeatCount="indefinite"/></circle>
+      <circle cx="806" cy="187" r="3"><animate attributeName="opacity" values="1;.3;1" dur="3.2s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <g transform="translate(480 126)" text-anchor="middle" font-family="Segoe UI, Inter, Arial, sans-serif">
+      <text y="-28" fill="#F8FAFC" font-size="47" font-weight="750" letter-spacing="1">QUANG HUY</text>
+      <rect x="-285" y="-5" width="570" height="2" rx="1" fill="url(#accent)">
+        <animate attributeName="width" values="240;570;240" attributeType="XML" dur="7s" repeatCount="indefinite"/>
+        <animate attributeName="x" values="-120;-285;-120" attributeType="XML" dur="7s" repeatCount="indefinite"/>
+      </rect>
+      <text y="36" fill="#B8CBE1" font-size="19" letter-spacing="3.2">APPLIED AI  ·  DATA SYSTEMS  ·  VISUAL ALGORITHMS</text>
+      <text y="73" fill="#7DD3FC" font-size="14" letter-spacing="1.4">turning experiments into understandable, useful software</text>
+    </g>
+
+    <rect x="1" y="1" width="958" height="258" rx="19" stroke="url(#accent)" stroke-opacity=".38" stroke-width="2"/>
+  </g>
+</svg>

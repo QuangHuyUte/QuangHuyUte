@@ -1,0 +1,18 @@
+<svg width="960" height="42" viewBox="0 0 960 42" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Animated cyan blue violet divider">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="960" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset=".25" stop-color="#22D3EE"/>
+      <stop offset=".5" stop-color="#60A5FA"/>
+      <stop offset=".75" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#A78BFA" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path d="M0 21H960" stroke="url(#g)" stroke-width="2" stroke-dasharray="16 10">
+    <animate attributeName="stroke-dashoffset" from="0" to="-52" dur="2.4s" repeatCount="indefinite"/>
+  </path>
+  <circle cx="480" cy="21" r="5" fill="#E0F2FE">
+    <animate attributeName="r" values="4;7;4" dur="2.4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".7;1;.7" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+</svg>
