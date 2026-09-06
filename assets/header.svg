@@ -1,65 +1,42 @@
-<svg width="960" height="260" viewBox="0 0 960 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Quang Huy — Applied AI, data systems and visual algorithms</title>
-  <desc id="desc">Animated dark blue portfolio header with data nodes and moving signal paths.</desc>
+<svg width="960" height="420" viewBox="0 0 960 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Bui Quang Huy - Applied AI Engineer</title>
+  <desc id="desc">An animated three-dimensional AI laboratory with layered glass panels, model nodes, and flowing signals.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="960" y2="260" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#07111F"/>
-      <stop offset="0.55" stop-color="#0B1E33"/>
-      <stop offset="1" stop-color="#10233D"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="190" y1="64" x2="748" y2="207" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#22D3EE"/>
-      <stop offset="0.52" stop-color="#60A5FA"/>
-      <stop offset="1" stop-color="#A78BFA"/>
-    </linearGradient>
-    <radialGradient id="glow">
-      <stop stop-color="#22D3EE" stop-opacity=".38"/>
-      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" stroke="#8BD5FF" stroke-opacity=".07"/>
-    </pattern>
-    <filter id="soft" x="-80%" y="-80%" width="260%" height="260%">
-      <feGaussianBlur stdDeviation="8"/>
-    </filter>
-    <clipPath id="clip"><rect width="960" height="260" rx="20"/></clipPath>
+    <linearGradient id="bg" x1="45" y1="24" x2="915" y2="396" gradientUnits="userSpaceOnUse"><stop stop-color="#050B17"/><stop offset=".52" stop-color="#09182C"/><stop offset="1" stop-color="#112746"/></linearGradient>
+    <linearGradient id="edge" x1="70" y1="40" x2="900" y2="380" gradientUnits="userSpaceOnUse"><stop stop-color="#42E8E0"/><stop offset=".5" stop-color="#5C8BFF"/><stop offset="1" stop-color="#A972FF"/></linearGradient>
+    <linearGradient id="glass" x1="620" y1="75" x2="875" y2="332" gradientUnits="userSpaceOnUse"><stop stop-color="#1D4265" stop-opacity=".88"/><stop offset="1" stop-color="#0A172B" stop-opacity=".7"/></linearGradient>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#42E8E0"/><stop offset=".55" stop-color="#62A4FF"/><stop offset="1" stop-color="#B47CFF"/></linearGradient>
+    <radialGradient id="cyanGlow"><stop stop-color="#32D9E6" stop-opacity=".32"/><stop offset="1" stop-color="#32D9E6" stop-opacity="0"/></radialGradient>
+    <radialGradient id="violetGlow"><stop stop-color="#9F67FF" stop-opacity=".28"/><stop offset="1" stop-color="#9F67FF" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse" patternTransform="skewX(-18)"><path d="M30 0H0V30" stroke="#9EDCFF" stroke-opacity=".065"/></pattern>
+    <filter id="blur"><feGaussianBlur stdDeviation="22"/></filter>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="200%"><feDropShadow dx="0" dy="15" stdDeviation="14" flood-color="#020610" flood-opacity=".72"/></filter>
+    <clipPath id="clip"><rect width="960" height="420" rx="24"/></clipPath>
   </defs>
   <g clip-path="url(#clip)">
-    <rect width="960" height="260" fill="url(#bg)"/>
-    <rect width="960" height="260" fill="url(#grid)"/>
-    <circle cx="830" cy="44" r="170" fill="url(#glow)" opacity=".4">
-      <animate attributeName="cx" values="830;760;830" dur="9s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="118" cy="250" r="140" fill="url(#glow)" opacity=".22">
-      <animate attributeName="cy" values="250;210;250" dur="11s" repeatCount="indefinite"/>
-    </circle>
-
-    <g opacity=".6" stroke="#5DD9EF" stroke-width="1.4">
-      <path d="M40 56C120 20 143 95 218 58S333 38 393 73" stroke-dasharray="5 9">
-        <animate attributeName="stroke-dashoffset" from="0" to="-56" dur="4s" repeatCount="indefinite"/>
-      </path>
-      <path d="M636 199C711 154 759 222 824 173S909 162 944 114" stroke-dasharray="4 10">
-        <animate attributeName="stroke-dashoffset" from="0" to="-56" dur="4.8s" repeatCount="indefinite"/>
-      </path>
+    <rect width="960" height="420" fill="url(#bg)"/>
+    <circle cx="770" cy="100" r="255" fill="url(#cyanGlow)" filter="url(#blur)"><animate attributeName="cx" values="770;700;770" dur="10s" repeatCount="indefinite"/></circle>
+    <circle cx="170" cy="390" r="245" fill="url(#violetGlow)" filter="url(#blur)"><animate attributeName="cy" values="390;330;390" dur="12s" repeatCount="indefinite"/></circle>
+    <path d="M0 214L960 98V420H0Z" fill="url(#grid)" opacity=".72"/>
+    <g font-family="Segoe UI, Inter, Arial, sans-serif">
+      <g transform="translate(62 63)">
+        <g opacity=".92"><circle cx="5" cy="0" r="5" fill="#42E8E0"/><text x="20" y="5" fill="#9BC8E8" font-size="13" font-weight="700" letter-spacing="2.2">AI ENGINEER INTERN · HCMC</text></g>
+        <text y="73" fill="#F7FBFF" font-size="50" font-weight="760" letter-spacing=".6">BUI QUANG HUY</text>
+        <text y="117" fill="url(#edge)" font-size="25" font-weight="650">I build AI systems people can inspect.</text>
+        <text y="157" fill="#AFC6DA" font-size="16">Multimodal learning · LLM fine-tuning · Hybrid RAG</text>
+        <text y="184" fill="#AFC6DA" font-size="16">Recommendation · APIs · Evidence-aware products</text>
+        <g transform="translate(0 226)"><rect width="154" height="70" rx="15" fill="#0E2037" stroke="#2C5874"/><text x="18" y="27" fill="#6FE8E4" font-size="11" font-weight="700" letter-spacing="1.4">IEMOCAP · 10 FOLD</text><text x="18" y="54" fill="#F4FBFF" font-size="22" font-weight="750">74.64% UAR</text></g>
+        <g transform="translate(166 226)"><rect width="154" height="70" rx="15" fill="#0E2037" stroke="#2C5874"/><text x="18" y="27" fill="#7DAFFF" font-size="11" font-weight="700" letter-spacing="1.4">MULTIMODAL VAD</text><text x="18" y="54" fill="#F4FBFF" font-size="22" font-weight="750">0.661 CCC</text></g>
+        <g transform="translate(332 226)"><rect width="154" height="70" rx="15" fill="#0E2037" stroke="#2C5874"/><text x="18" y="27" fill="#C19AFF" font-size="11" font-weight="700" letter-spacing="1.4">BUILD MODE</text><text x="18" y="54" fill="#F4FBFF" font-size="19" font-weight="750">Research → App</text></g>
+      </g>
+      <g transform="translate(685 201)" filter="url(#shadow)">
+        <g opacity=".48" transform="translate(-14 30)"><path d="M0 -70L118 -132L236 -70L118 -8Z" fill="#0A1728" stroke="#4F82A8"/><path d="M0 -70L118 -8V115L0 52Z" fill="#07101D" stroke="#31506A"/><path d="M118 -8L236 -70V52L118 115Z" fill="#0D1E35" stroke="#31506A"/></g>
+        <g><animateTransform attributeName="transform" type="translate" values="0 0;0 -8;0 0" dur="5.5s" repeatCount="indefinite"/><path d="M0 -102L118 -164L236 -102L118 -40Z" fill="url(#glass)" stroke="url(#edge)" stroke-width="1.5"/><path d="M0 -102L118 -40V38L0 -24Z" fill="#071322" fill-opacity=".94" stroke="#275173"/><path d="M118 -40L236 -102V-24L118 38Z" fill="#102844" fill-opacity=".9" stroke="#315E83"/><text x="118" y="-112" text-anchor="middle" fill="#DFF8FF" font-size="13" font-weight="750" letter-spacing="1.6">MULTIMODAL CORE</text><g fill="none" stroke="url(#signal)" stroke-width="2" stroke-linecap="round"><path d="M47 -96L88 -117L121 -100L162 -122L198 -102" stroke-dasharray="6 8"><animate attributeName="stroke-dashoffset" values="0;-56" dur="3.2s" repeatCount="indefinite"/></path><path d="M69 -74L113 -52L168 -81" stroke-opacity=".75"/></g><g fill="#57E1E2"><circle cx="47" cy="-96" r="5"/><circle cx="88" cy="-117" r="5"/><circle cx="121" cy="-100" r="7" fill="#7CA8FF"/><circle cx="162" cy="-122" r="5" fill="#A97AFF"/><circle cx="198" cy="-102" r="5"/></g><g fill="#A7DFFF" font-size="10" font-weight="700"><text x="18" y="-48">AUDIO</text><text x="128" y="18">FUSION</text><text x="185" y="-45">TEXT</text></g></g>
+        <g transform="translate(-58 88)"><animateTransform attributeName="transform" type="translate" values="-58 88;-58 78;-58 88" dur="6.4s" repeatCount="indefinite"/><path d="M0 0L88 -46L168 -4L80 42Z" fill="#112B49" stroke="#42DAD8" stroke-opacity=".75"/><text x="80" y="2" text-anchor="middle" fill="#CFFBFA" font-size="11" font-weight="700">SIGNALS</text></g>
+        <g transform="translate(154 103)"><animateTransform attributeName="transform" type="translate" values="154 103;154 91;154 103" dur="7.1s" repeatCount="indefinite"/><path d="M0 0L74 -39L132 -8L58 31Z" fill="#19264D" stroke="#A87BFF" stroke-opacity=".82"/><text x="65" y="0" text-anchor="middle" fill="#E8DDFF" font-size="10" font-weight="700">EVIDENCE</text></g>
+      </g>
+      <g fill="#9DD9F2" font-size="10" font-weight="700" letter-spacing="1.1"><g transform="translate(584 54)"><rect width="104" height="29" rx="14.5" fill="#0D2239" stroke="#32617F"/><text x="52" y="19" text-anchor="middle">PYTORCH</text></g><g transform="translate(812 62)"><rect width="91" height="29" rx="14.5" fill="#0D2239" stroke="#32617F"/><text x="45.5" y="19" text-anchor="middle">QLORA</text></g><g transform="translate(826 328)"><rect width="91" height="29" rx="14.5" fill="#0D2239" stroke="#32617F"/><text x="45.5" y="19" text-anchor="middle">FASTAPI</text></g></g>
     </g>
-
-    <g fill="#22D3EE">
-      <circle cx="62" cy="49" r="4"><animate attributeName="opacity" values=".25;1;.25" dur="2.1s" repeatCount="indefinite"/></circle>
-      <circle cx="155" cy="65" r="3"><animate attributeName="opacity" values="1;.25;1" dur="2.8s" repeatCount="indefinite"/></circle>
-      <circle cx="878" cy="153" r="4"><animate attributeName="opacity" values=".2;1;.2" dur="2.4s" repeatCount="indefinite"/></circle>
-      <circle cx="806" cy="187" r="3"><animate attributeName="opacity" values="1;.3;1" dur="3.2s" repeatCount="indefinite"/></circle>
-    </g>
-
-    <g transform="translate(480 126)" text-anchor="middle" font-family="Segoe UI, Inter, Arial, sans-serif">
-      <text y="-28" fill="#F8FAFC" font-size="47" font-weight="750" letter-spacing="1">QUANG HUY</text>
-      <rect x="-285" y="-5" width="570" height="2" rx="1" fill="url(#accent)">
-        <animate attributeName="width" values="240;570;240" attributeType="XML" dur="7s" repeatCount="indefinite"/>
-        <animate attributeName="x" values="-120;-285;-120" attributeType="XML" dur="7s" repeatCount="indefinite"/>
-      </rect>
-      <text y="36" fill="#B8CBE1" font-size="19" letter-spacing="3.2">APPLIED AI  ·  DATA SYSTEMS  ·  VISUAL ALGORITHMS</text>
-      <text y="73" fill="#7DD3FC" font-size="14" letter-spacing="1.4">turning experiments into understandable, useful software</text>
-    </g>
-
-    <rect x="1" y="1" width="958" height="258" rx="19" stroke="url(#accent)" stroke-opacity=".38" stroke-width="2"/>
+    <rect x="1" y="1" width="958" height="418" rx="23" stroke="url(#edge)" stroke-opacity=".42" stroke-width="2"/>
   </g>
 </svg>
