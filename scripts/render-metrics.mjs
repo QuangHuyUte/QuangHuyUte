@@ -114,29 +114,43 @@ const legend = topLanguages
   })
   .join("");
 
-const svg = `<svg width="960" height="260" viewBox="0 0 960 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+const svg = `<svg width="960" height="300" viewBox="0 0 960 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">${xml(username)}'s live GitHub metrics</title>
   <desc id="desc">${owned.length} repositories, ${totals.stars} stars, ${totals.forks} forks and ${profile.followers} followers. Updated ${xml(generated)}.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="960" y2="260"><stop stop-color="#07111F"/><stop offset="1" stop-color="#10233D"/></linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="960" y2="300"><stop stop-color="#050B17"/><stop offset=".55" stop-color="#09182C"/><stop offset="1" stop-color="#112746"/></linearGradient>
     <linearGradient id="line" x1="42" y1="0" x2="918" y2="0"><stop stop-color="#22D3EE"/><stop offset=".55" stop-color="#60A5FA"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse" patternTransform="skewX(-16)"><path d="M28 0H0V28" stroke="#8BD5FF" stroke-opacity=".055"/></pattern>
+    <filter id="shadow" x="-30%" y="-40%" width="160%" height="190%"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#020610" flood-opacity=".68"/></filter>
   </defs>
-  <rect x="1" y="1" width="958" height="258" rx="18" fill="url(#bg)" stroke="#28435F" stroke-width="2"/>
+  <rect x="1" y="1" width="958" height="298" rx="20" fill="url(#bg)" stroke="#28435F" stroke-width="2"/>
+  <path d="M0 184L960 92V300H0Z" fill="url(#grid)"/>
+  <path d="M726 7L959 7V101L838 127L726 86Z" fill="#23496B" fill-opacity=".24"/>
   <g font-family="Segoe UI, Inter, Arial, sans-serif">
     <text x="42" y="42" fill="#F8FAFC" font-size="20" font-weight="700">LIVE GITHUB SNAPSHOT</text>
     <text x="918" y="42" fill="#8299AF" text-anchor="end" font-size="12">UPDATED ${xml(generated.toUpperCase())}</text>
     <rect x="42" y="57" width="876" height="2" rx="1" fill="url(#line)"/>
 
-    <text x="42" y="105" fill="#22D3EE" font-size="31" font-weight="750">${owned.length}</text><text x="42" y="130" fill="#9FB5C9" font-size="12">REPOSITORIES</text>
-    <text x="215" y="105" fill="#FACC15" font-size="31" font-weight="750">${compact(totals.stars)}</text><text x="215" y="130" fill="#9FB5C9" font-size="12">STARS EARNED</text>
-    <text x="388" y="105" fill="#A78BFA" font-size="31" font-weight="750">${compact(totals.forks)}</text><text x="388" y="130" fill="#9FB5C9" font-size="12">FORKS</text>
-    <text x="561" y="105" fill="#34D399" font-size="31" font-weight="750">${compact(profile.followers)}</text><text x="561" y="130" fill="#9FB5C9" font-size="12">FOLLOWERS</text>
-    <text x="734" y="105" fill="#60A5FA" font-size="31" font-weight="750">${recentlyActive}</text><text x="734" y="130" fill="#9FB5C9" font-size="12">ACTIVE · 90 DAYS</text>
+    <g filter="url(#shadow)">
+      <rect x="32" y="72" width="156" height="69" rx="13" fill="#0D2037" stroke="#234B69"/>
+      <rect x="205" y="72" width="156" height="69" rx="13" fill="#0D2037" stroke="#234B69"/>
+      <rect x="378" y="72" width="156" height="69" rx="13" fill="#0D2037" stroke="#234B69"/>
+      <rect x="551" y="72" width="156" height="69" rx="13" fill="#0D2037" stroke="#234B69"/>
+      <rect x="724" y="72" width="204" height="69" rx="13" fill="#0D2037" stroke="#234B69"/>
+    </g>
+    <text x="48" y="105" fill="#22D3EE" font-size="28" font-weight="750">${owned.length}</text><text x="48" y="128" fill="#9FB5C9" font-size="11">REPOSITORIES</text>
+    <text x="221" y="105" fill="#FACC15" font-size="28" font-weight="750">${compact(totals.stars)}</text><text x="221" y="128" fill="#9FB5C9" font-size="11">STARS EARNED</text>
+    <text x="394" y="105" fill="#A78BFA" font-size="28" font-weight="750">${compact(totals.forks)}</text><text x="394" y="128" fill="#9FB5C9" font-size="11">FORKS</text>
+    <text x="567" y="105" fill="#34D399" font-size="28" font-weight="750">${compact(profile.followers)}</text><text x="567" y="128" fill="#9FB5C9" font-size="11">FOLLOWERS</text>
+    <text x="740" y="105" fill="#60A5FA" font-size="28" font-weight="750">${recentlyActive}</text><text x="740" y="128" fill="#9FB5C9" font-size="11">ACTIVE · 90 DAYS</text>
 
     <text x="42" y="162" fill="#DCE9F5" font-size="13">Latest: ${xml(label(latest?.name || "—", 42))}</text>
     ${bars}
     ${legend}
-    <text x="918" y="247" fill="#607990" text-anchor="end" font-size="11">rendered with JavaScript + GitHub Actions</text>
+    <path d="M42 250H918" stroke="url(#line)" stroke-opacity=".35"/>
+    <circle cx="58" cy="272" r="4" fill="#42E8E0"><animate attributeName="cx" values="58;350;636;902" dur="7s" repeatCount="indefinite"/></circle>
+    <text x="42" y="277" fill="#718AA0" font-size="10" letter-spacing="1">API → NORMALIZE → AGGREGATE → SVG</text>
+    <text x="918" y="277" fill="#718AA0" text-anchor="end" font-size="10">rendered with JavaScript + GitHub Actions</text>
   </g>
 </svg>`;
 
