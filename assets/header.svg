@@ -25,8 +25,8 @@
         <text y="117" fill="url(#edge)" font-size="25" font-weight="650">I build AI systems people can inspect.</text>
         <text y="157" fill="#AFC6DA" font-size="16">Multimodal learning · LLM fine-tuning · Hybrid RAG</text>
         <text y="184" fill="#AFC6DA" font-size="16">Recommendation · APIs · Evidence-aware products</text>
-        <g transform="translate(0 226)"><rect width="154" height="70" rx="15" fill="#0E2037" stroke="#2C5874"/><text x="18" y="27" fill="#6FE8E4" font-size="11" font-weight="700" letter-spacing="1.4">IEMOCAP · 10 FOLD</text><text x="18" y="54" fill="#F4FBFF" font-size="22" font-weight="750">74.64% UAR</text></g>
-        <g transform="translate(166 226)"><rect width="154" height="70" rx="15" fill="#0E2037" stroke="#2C5874"/><text x="18" y="27" fill="#7DAFFF" font-size="11" font-weight="700" letter-spacing="1.4">MULTIMODAL VAD</text><text x="18" y="54" fill="#F4FBFF" font-size="22" font-weight="750">0.661 CCC</text></g>
+        <g transform="translate(0 226)"><rect width="154" height="70" rx="15" fill="#0E2037" stroke="#2C5874"/><text x="18" y="27" fill="#6FE8E4" font-size="11" font-weight="700" letter-spacing="1.4">SPECIALTY</text><text x="18" y="54" fill="#F4FBFF" font-size="20" font-weight="750">Multimodal AI</text></g>
+        <g transform="translate(166 226)"><rect width="154" height="70" rx="15" fill="#0E2037" stroke="#2C5874"/><text x="18" y="27" fill="#7DAFFF" font-size="11" font-weight="700" letter-spacing="1.4">MINDSET</text><text x="18" y="54" fill="#F4FBFF" font-size="20" font-weight="750">Evidence first</text></g>
         <g transform="translate(332 226)"><rect width="154" height="70" rx="15" fill="#0E2037" stroke="#2C5874"/><text x="18" y="27" fill="#C19AFF" font-size="11" font-weight="700" letter-spacing="1.4">BUILD MODE</text><text x="18" y="54" fill="#F4FBFF" font-size="19" font-weight="750">Research → App</text></g>
       </g>
       <g transform="translate(685 201)" filter="url(#shadow)">
