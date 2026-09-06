@@ -1,6 +1,6 @@
 <svg width="960" height="260" viewBox="0 0 960 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">QuangHuyUte's live GitHub metrics</title>
-  <desc id="desc">17 repositories, 2 stars, 1 forks and 2 followers. Updated Sep 06, 2026.</desc>
+  <desc id="desc">18 repositories, 2 stars, 1 forks and 2 followers. Updated Sep 06, 2026.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="960" y2="260"><stop stop-color="#07111F"/><stop offset="1" stop-color="#10233D"/></linearGradient>
     <linearGradient id="line" x1="42" y1="0" x2="918" y2="0"><stop stop-color="#22D3EE"/><stop offset=".55" stop-color="#60A5FA"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
@@ -11,14 +11,14 @@
     <text x="918" y="42" fill="#8299AF" text-anchor="end" font-size="12">UPDATED SEP 06, 2026</text>
     <rect x="42" y="57" width="876" height="2" rx="1" fill="url(#line)"/>
 
-    <text x="42" y="105" fill="#22D3EE" font-size="31" font-weight="750">17</text><text x="42" y="130" fill="#9FB5C9" font-size="12">REPOSITORIES</text>
+    <text x="42" y="105" fill="#22D3EE" font-size="31" font-weight="750">18</text><text x="42" y="130" fill="#9FB5C9" font-size="12">REPOSITORIES</text>
     <text x="215" y="105" fill="#FACC15" font-size="31" font-weight="750">2</text><text x="215" y="130" fill="#9FB5C9" font-size="12">STARS EARNED</text>
     <text x="388" y="105" fill="#A78BFA" font-size="31" font-weight="750">1</text><text x="388" y="130" fill="#9FB5C9" font-size="12">FORKS</text>
     <text x="561" y="105" fill="#34D399" font-size="31" font-weight="750">2</text><text x="561" y="130" fill="#9FB5C9" font-size="12">FOLLOWERS</text>
-    <text x="734" y="105" fill="#60A5FA" font-size="31" font-weight="750">6</text><text x="734" y="130" fill="#9FB5C9" font-size="12">ACTIVE · 90 DAYS</text>
+    <text x="734" y="105" fill="#60A5FA" font-size="31" font-weight="750">7</text><text x="734" y="130" fill="#9FB5C9" font-size="12">ACTIVE · 90 DAYS</text>
 
-    <text x="42" y="162" fill="#DCE9F5" font-size="13">Latest: Hotel_Booking_App</text>
-    <rect x="42" y="181" width="696" height="10" rx="5" fill="#DA5B0B"/><rect x="738" y="181" width="152" height="10" rx="5" fill="#3572A5"/><rect x="890" y="181" width="11" height="10" rx="5" fill="#B07219"/><rect x="901" y="181" width="10" height="10" rx="5" fill="#F1E05A"/><rect x="911" y="181" width="7" height="10" rx="5" fill="#F7931E"/>
+    <text x="42" y="162" fill="#DCE9F5" font-size="13">Latest: QuangHuyUte</text>
+    <rect x="42" y="181" width="696" height="10" rx="5" fill="#DA5B0B"/><rect x="738" y="181" width="152" height="10" rx="5" fill="#3572A5"/><rect x="890" y="181" width="11" height="10" rx="5" fill="#B07219"/><rect x="901" y="181" width="11" height="10" rx="5" fill="#F1E05A"/><rect x="912" y="181" width="7" height="10" rx="5" fill="#F7931E"/>
     <circle cx="42" cy="218" r="5" fill="#DA5B0B"/><text x="53" y="222" fill="#AFC3D6" font-size="12">Jupyter Notebo… 79%</text><circle cx="218" cy="218" r="5" fill="#3572A5"/><text x="229" y="222" fill="#AFC3D6" font-size="12">Python 17%</text><circle cx="394" cy="218" r="5" fill="#B07219"/><text x="405" y="222" fill="#AFC3D6" font-size="12">Java 1%</text><circle cx="570" cy="218" r="5" fill="#F1E05A"/><text x="581" y="222" fill="#AFC3D6" font-size="12">JavaScript 1%</text><circle cx="746" cy="218" r="5" fill="#F7931E"/><text x="757" y="222" fill="#AFC3D6" font-size="12">Handlebars 1%</text>
     <text x="918" y="247" fill="#607990" text-anchor="end" font-size="11">rendered with JavaScript + GitHub Actions</text>
   </g>
