@@ -1,0 +1,9 @@
+{
+  "name": "quanghuyute-profile",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "render:metrics": "node scripts/render-metrics.mjs",
+    "check": "node --check scripts/render-metrics.mjs"
+  }
+}
