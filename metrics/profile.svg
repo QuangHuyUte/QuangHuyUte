@@ -1,6 +1,6 @@
 <svg width="960" height="300" viewBox="0 0 960 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">QuangHuyUte's live GitHub metrics</title>
-  <desc id="desc">18 repositories, 2 stars, 1 forks and 2 followers. Updated Sep 12, 2026.</desc>
+  <desc id="desc">18 repositories, 2 stars, 1 forks and 2 followers. Updated Sep 13, 2026.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="960" y2="300"><stop stop-color="#050B17"/><stop offset=".55" stop-color="#09182C"/><stop offset="1" stop-color="#112746"/></linearGradient>
     <linearGradient id="line" x1="42" y1="0" x2="918" y2="0"><stop stop-color="#22D3EE"/><stop offset=".55" stop-color="#60A5FA"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
@@ -12,7 +12,7 @@
   <path d="M726 7L959 7V101L838 127L726 86Z" fill="#23496B" fill-opacity=".24"/>
   <g font-family="Segoe UI, Inter, Arial, sans-serif">
     <text x="42" y="42" fill="#F8FAFC" font-size="20" font-weight="700">LIVE GITHUB SNAPSHOT</text>
-    <text x="918" y="42" fill="#8299AF" text-anchor="end" font-size="12">UPDATED SEP 12, 2026</text>
+    <text x="918" y="42" fill="#8299AF" text-anchor="end" font-size="12">UPDATED SEP 13, 2026</text>
     <rect x="42" y="57" width="876" height="2" rx="1" fill="url(#line)"/>
 
     <g filter="url(#shadow)">
